@@ -40,7 +40,7 @@ export const storeProducts = [
   },
   {
     id: 4,
-    title: "Bakers Dozen Frozen Cookies",
+    title: "Bulk Frozen Cookies",
     img: "img/product-4.png",
     price: 24,
     company: "Bambi's Cafe",
@@ -78,7 +78,7 @@ export const storeProducts = [
   },  
   {
     id: 7,
-    title: "Immunity Boosting Miso Soup 18oz",
+    title: "Immunity Miso Soup 18oz",
     img: "img/product-7.png",
     price: 18,
     company: "Bambi's Cafe",

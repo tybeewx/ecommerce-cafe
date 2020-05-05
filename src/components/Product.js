@@ -18,7 +18,8 @@ class Product extends Component {
                                     value.handleDetail(id)
                                 }>
                                 <Link to="/details">
-                                    <img src={img} alt="product" className="card-img-top"/>
+                                    <img 
+                                    src={img} alt="product" className="card-img-top"></img>
                                 </Link>
                                 <button className ="cart-btn" 
                                 disabled={inCart ? true : false} 
@@ -66,6 +67,8 @@ Product.propTypes={
 };
 const ProductWrapper = styled.div`
     .card{
+        min-width:200px;
+        max-height: 300px;
         border-color:transparent;
         background-color: var(--mainLightTeal);
         transition: all 0.2s linear;
@@ -91,10 +94,11 @@ const ProductWrapper = styled.div`
         }
     }
     .img-container{
+        min-width:200px;
+        max-width:600px;
+        max-height: 600px;
         position: relative;
         overflow: hidden;
-        width: auto;
-        height: auto;
     }
     .card-img-top{
         transition:all 0.2s linear;
